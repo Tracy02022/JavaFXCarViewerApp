@@ -1,0 +1,10 @@
+root {
+    display: block;
+}
+.root {
+    -fx-background-image: url("bk.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+
+

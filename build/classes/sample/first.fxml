@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.SVGPath?>
+
+<Group xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+       <Button fx:id="firstButton" layoutX="-56.0" layoutY="-156.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="190.0" text="Hey There ♪(^∇^*)" textFill="#f5eaea" >
+           <graphic>
+        <StackPane>
+          <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LEMONCHIFFON" height="15.0" stroke="BLACK"
+                       strokeType="INSIDE" width="15.0"/>
+            <SVGPath
+                content="M 1.3657704,4.938667 C 1.1462945,5.1582921 1.1462945,5.5133282 1.3657704,5.7329533 L 3.7236648,8.0924507 C 3.9431407,8.3120765 4.2979355,8.3120765 4.5174113,8.0924507 L 9.5366913,3.0697579 C 9.7561672,2.8501328 9.7561674,2.4950969 9.5366913,2.2754716 L 8.6962538,1.4344625 C 8.4767779,1.2148374 8.121983,1.2148374 7.9025071,1.4344625 L 4.6107933,4.7284147 L 3.4902099,3.6070693 C 3.270734,3.3874441 2.9159392,3.387444 2.6964632,3.6070693 L 1.3657704,4.938667 z"
+                fill="GREEN"/>
+          </children>
+        </StackPane>
+      </graphic>
+       </Button>
+   </children>
+</Group>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="641.0" prefWidth="669.0" styleClass="root" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+
+    <padding>
+        <Insets bottom="40" left="40" right="40" top="40" />
+    </padding>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="Infinity" minWidth="140.0" prefWidth="140.0" />
+      <ColumnConstraints halignment="LEFT" maxWidth="Infinity" minWidth="160.0" prefWidth="160.0" />
+      <ColumnConstraints />
+    </columnConstraints>
+    <!-- Add Email Label -->
+    <Label prefHeight="25.0" prefWidth="142.0" text="Email / Username : " textFill="#f7fafa" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+    <!-- Add Email Text Field -->
+    <TextField fx:id="emailIdField2" prefHeight="24.0" prefWidth="149.0" promptText="email/username" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+    <!-- Add Password Label -->
+    <Label text="Password : " textFill="#f9ffff" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+    <!-- Add Password Field -->
+    <PasswordField fx:id="passwordField2" prefHeight="27.0" prefWidth="185.0" promptText="password" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+    <!-- Add Buttons -->
+    <Button fx:id="regButton" alignment="CENTER" defaultButton="true" onAction="#registerSubmit" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #e7eee4#e7eee4 #e7eee4#e7eee4;" text="Register" textFill="#360707" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.rowIndex="8" GridPane.rowSpan="1">
+        <GridPane.margin>
+            <Insets bottom="20" left="0" right="0" top="20" />
+        </GridPane.margin>
+    </Button>
+    <stylesheets>
+        <URL value="@regstyle.css" />
+    </stylesheets>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
